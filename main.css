@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    background-color: rgb(13, 236, 106);
+}
+ 
+h1,div{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 7rem;
+ 
+    transition: background-color 0.25s, color 0.5s, padding 0.5s;
+}
+ 
+h1{
+    color: black;
+    font-family: unset;
+    font-size: 60px;
+    position: fixed;
+    top: 5vh;
+    left: 30vw;
+ 
+}
+ 
+div:hover{
+    cursor: pointer;
+}
+ 
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 3rem;
+    padding: 1rem;
+ 
+    background-color:rgb(194, 135, 250);
+    color: lightgoldenrodyellow;
+    transition: height 0.66s;
+    overflow: hidden;
+    text-decoration: none;
+}
+ 
+nav{
+    height: 100vh;
+}
+ 
+p:hover{
+    padding-top: 0.1rem;
+    background-color: lightskyblue;
+    color: lightskyblue;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: unset;
+}
+a{
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+    font-size: 20px;
+}
